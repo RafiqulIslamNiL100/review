@@ -11,7 +11,7 @@ const Course = () => {
     }, [])
     return (
         <div>
-            <h1 className="text-center">Our total Course:{courses.length}</h1>
+            <h1 className="text-center">All Course:{courses.length}</h1>
             {
                 courses.map(course => <Courses course={course}
                     key={course.id}></Courses>)
